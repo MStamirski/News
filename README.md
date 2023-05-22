@@ -13,7 +13,7 @@ The project consists of 4 notebooks.
 
 ### DataPrep
 
-Titles of news in four datasets were analysed, unnecessary columns were removed, as well as rows with nulls in title or label. Common label 'real' means that news are not fake. Titles were transformed by deletion of punctuation (extended for this project on the basis of data analysis), using lowercase, tokenization, deletion of stopwords (also extended) and lemmatization. Transformed titles were saved in new column 'news'. Then datasets were concatenated. It turned out that there were several empty news after transformation, so these rows were removed. Final dataset contained 139.662 news, 64.264 of which were fake and 75.398 were real. It was saved to csv file.
+Titles of news in four datasets were analysed, unnecessary columns were removed, as well as rows with nulls in title or label. Common label 'real' means that news are not fake. Titles were transformed by deletion of punctuation (extended for this project on the basis of data analysis), using lowercase, tokenization, deletion of stopwords (list of which was also extended) and lemmatization. Transformed titles were saved in new column 'news'. Then datasets were concatenated. It turned out that there were several empty news after transformation, so these rows were removed. Final dataset contained 139.662 news, 64.264 of which were fake and 75.398 were real. It was saved to csv file.
 
 ### BagOfWords
 
