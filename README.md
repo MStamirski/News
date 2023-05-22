@@ -1,7 +1,7 @@
 # News
 Natural Language Processing
 
-The goal of this project was to build a model predicting whether a piece of news is fake or real. Data come from 3 sources:
+The goal of this project was to build a model predicting whether a piece of news is fake or real. Data comes from 3 sources:
 
 https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
 
