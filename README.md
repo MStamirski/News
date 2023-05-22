@@ -21,7 +21,7 @@ Two method of vectorization were used: CountVectorizer (which returns vectors wi
 
 ### Embedding
 
-Number of features resulted from unified length of sentences (25 words). Value of each feature was an index in vocabulary of word in sentence. Vocabulary size was limited to 10.000 of words, out of total almost 40.000. Used embedding model transformed each sentence to vector of 20 numbers. Then three neural network models were tested. Unfortunatelly, as learning curves show, number of features turned out to be unsufficient. The best model, with 3 dense layers and without RNN and Dropout layers, gave F1 score of only 0.64.
+Number of features resulted from unified length of sentences (20 words). Value of each feature was an index in vocabulary of word in sentence. Vocabulary size was limited to 10.000 of words, out of total almost 40.000. Used embedding model transformed each sentence to vector of 20 numbers. Then three neural network models were tested. Unfortunatelly, as learning curves show, number of features turned out to be unsufficient. The best model, with 3 dense layers and without RNN and Dropout layers, gave F1 score of only 0.64.
 
 ### SentenceTransform
 
