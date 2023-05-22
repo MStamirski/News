@@ -28,5 +28,7 @@ Number of features resulted from unified length of sentences (25 words). Value o
 News were transformed using SentenceTransformer model. Obtained vectors were features for training classification model based on Logistic Regression, which hiperparameter was tuned using Optuna. The F1 score achieved 0.72, which was the best result among other trials in this project. Then, based on predicted probabilities, the best threshold separating label 0 and 1 was found. It turned out to be 0.5, so this attempt didn't improve the result. At the end, using cosine distance in vector space, news similiar to several randomly selected ones were found.
 
 ### Words in fake news
+![](https://github.com/MStamirski/News/blob/main/words_fake.PNG)
 
 ### Words in real news
+![](https://github.com/MStamirski/News/blob/main/words_real.PNG)
